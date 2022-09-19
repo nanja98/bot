@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pages {
+    display: grid;
+}
+
+.headers {
+    background-color: #00e600;
+    color: white;
+    width: 220px;
+    height: 630px;
+    flex: 0 0 15%;
+}
+
+.tchats {
+    flex: 0 0 70%;
+}
+
+nav li {
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+ul {
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+a {
+    text-decoration: none;
+    background-color: #00e600;
+    color: white;
+    border-radius: 1.5rem;
+    padding: 15px !important;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+h3 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 120px !important;
+    height: 40px !important;
+    border-radius: 1.5rem;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.headers table {
+    flex: 0 0 70%;
+}
